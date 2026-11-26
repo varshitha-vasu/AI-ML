@@ -1,0 +1,96 @@
+{
+  "annotation_provenance": "corrected-label files supplied by user; human-review flags incomplete",
+  "metrics_are_independent_ground_truth": false,
+  "images": 20,
+  "precision": 0.9720944445171236,
+  "recall": 0.9334062114738539,
+  "mAP50": 0.9749770171121673,
+  "mean_mAP50_95": 0.7972615571752907,
+  "confusion_matrix": [
+    [
+      34,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      25,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      26,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      19,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "circle",
+    "square",
+    "triangle",
+    "rectangle",
+    "background"
+  ],
+  "count_accuracy": {
+    "circle": 0.95,
+    "square": 0.85,
+    "triangle": 1.0,
+    "rectangle": 0.9
+  },
+  "class_prediction_accuracy_on_iou_matched_objects": 0.9719626168224299,
+  "average_inference_ms_per_image": 245.61667000011767,
+  "hardware": "Windows-10-10.0.26200-SP0",
+  "device": "CPU",
+  "input_size": 640,
+  "confidence_threshold": 0.25,
+  "iou_match_threshold": 0.5,
+  "per_class": {
+    "circle": {
+      "precision": 0.9928239688318522,
+      "recall": 0.9714285714285714,
+      "mAP50": 0.9866666666666667,
+      "mAP50_95": 0.8169774280286278,
+      "count_accuracy": 0.95
+    },
+    "square": {
+      "precision": 0.9032961643619505,
+      "recall": 0.9230769230769231,
+      "mAP50": 0.9476440489432705,
+      "mAP50_95": 0.8039792602892104,
+      "count_accuracy": 0.85
+    },
+    "triangle": {
+      "precision": 1.0,
+      "recall": 0.9754829877535577,
+      "mAP50": 0.995,
+      "mAP50_95": 0.7645383490778227,
+      "count_accuracy": 1.0
+    },
+    "rectangle": {
+      "precision": 0.9922576448746917,
+      "recall": 0.8636363636363636,
+      "mAP50": 0.9705973528387323,
+      "mAP50_95": 0.8035511913055016,
+      "count_accuracy": 0.9
+    }
+  }
+}
